@@ -45,8 +45,8 @@ def connectTelegramClient():
   client = TelegramClient('session_id', api_id, api_hash)
   client.connect()
   if not client.is_user_authorized():
-    client.send_code_request('+601162149577')
-    client.sign_in('+601162149577', input('Enter code:'))
+    client.send_code_request('+11122224333')
+    client.sign_in('+11122224333', input('Enter code:'))
   return client
 
 def argumentsParse():
